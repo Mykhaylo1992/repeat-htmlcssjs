@@ -1,0 +1,45 @@
+.team {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.team-members {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.member {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+}
+
+.member img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.member h3 {
+    margin: 10px 0 5px;
+    font-size: 18px;
+}
+
+.role {
+    color: gray;
+    font-size: 14px;
+}
+
+.image-grid {
+    display: flex;
+    justify-content: space-between;
+}
+
+.image-grid img {
+    width: 30%;
+    border-radius: 8px;
+}
